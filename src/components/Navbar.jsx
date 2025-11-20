@@ -55,16 +55,16 @@ const LoggedInNavbar = () => {
           </button>
           
           <button 
-            onClick={() => navigate('/projects')} 
-            className={getLinkClasses('/projects')}
+            onClick={() => navigate('/dashboard')} 
+            className={getLinkClasses('/dashboard')}
           >
             <FolderKanban className={`w-5 h-5 mr-2 ${isActive('/projects') ? 'text-black' : 'text-gray-600'}`} />
             Projects
           </button>
           
           <button 
-            onClick={() => navigate('/settings')} 
-            className={getLinkClasses('/settings')}
+            onClick={() => navigate('/dashboard')} 
+            className={getLinkClasses('/dashboard')}
           >
             <Settings className={`w-5 h-5 mr-2 ${isActive('/settings') ? 'text-black' : 'text-gray-600'}`} />
             Settings

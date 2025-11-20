@@ -3,7 +3,7 @@ import Login from '../pages/auth/login.jsx';
 import Register from '../pages/Auth/Register.jsx';
 import Home from '../pages/Home/Index.jsx';
 import PricingPage from '../pages/Home/PricingPlan.jsx';
-import FAQ from '../pages/Home/faq.jsx';
+import FAQ from '../pages/Home/Faq.jsx';
 import Dashboard from '../pages/Client/Dashboard.jsx';
 import AccessRoute from '../middleware/AccessRoute.jsx';
 import Profile from '../pages/Client/Profile.jsx';
